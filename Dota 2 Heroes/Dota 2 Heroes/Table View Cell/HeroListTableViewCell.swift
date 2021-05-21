@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HeroListTableViewCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!

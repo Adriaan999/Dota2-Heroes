@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383EB77BACD81DB3F3E6677C /* Pods_Dota_2_HeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98935DDEAD5695AA1F7B114 /* Pods_Dota_2_HeroesTests.framework */; };
 		635F08A72657D39E00BFFD64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08A62657D39E00BFFD64 /* NetworkManager.swift */; };
 		635F08B02657D50A00BFFD64 /* Data+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */; };
 		635F08C12657DA1100BFFD64 /* HeroListBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08C02657DA1100BFFD64 /* HeroListBoundary.swift */; };
@@ -23,6 +24,8 @@
 		6378AB5026579A1E00C2D2FC /* Dota_2_HeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB4F26579A1E00C2D2FC /* Dota_2_HeroesTests.swift */; };
 		6378AB5B26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB5A26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift */; };
 		6378AB7A2657A4E300C2D2FC /* HeroListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */; };
+		71FAB786BDC0F9A29A9DB0F9 /* Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEAF8D213FFA2780D144A05 /* Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework */; };
+		AFFF90DC151A4B9361DBF650 /* Pods_Dota_2_Heroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6A97585C8102AFF864324F /* Pods_Dota_2_Heroes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30F2EFA1F86CBC4787D881A1 /* Pods-Dota 2 HeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 HeroesTests.release.xcconfig"; path = "Target Support Files/Pods-Dota 2 HeroesTests/Pods-Dota 2 HeroesTests.release.xcconfig"; sourceTree = "<group>"; };
 		635F08A62657D39E00BFFD64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decoding.swift"; sourceTree = "<group>"; };
 		635F08C02657DA1100BFFD64 /* HeroListBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListBoundary.swift; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 		6378AB5A26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_2_HeroesUITests.swift; sourceTree = "<group>"; };
 		6378AB5C26579A1E00C2D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListTableViewCell.swift; sourceTree = "<group>"; };
+		670E2A04F75A497ACDFD19DE /* Pods-Dota 2 Heroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 Heroes.debug.xcconfig"; path = "Target Support Files/Pods-Dota 2 Heroes/Pods-Dota 2 Heroes.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEAF8D213FFA2780D144A05 /* Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B089CEA3A50E46894368B5CA /* Pods-Dota 2 HeroesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 HeroesTests.debug.xcconfig"; path = "Target Support Files/Pods-Dota 2 HeroesTests/Pods-Dota 2 HeroesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0BD2EBBDC8B1AF4A033E7BC /* Pods-Dota 2 Heroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 Heroes.release.xcconfig"; path = "Target Support Files/Pods-Dota 2 Heroes/Pods-Dota 2 Heroes.release.xcconfig"; sourceTree = "<group>"; };
+		B98935DDEAD5695AA1F7B114 /* Pods_Dota_2_HeroesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota_2_HeroesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB5242470C9F498CD23BF24 /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 Heroes-Dota 2 HeroesUITests.release.xcconfig"; path = "Target Support Files/Pods-Dota 2 Heroes-Dota 2 HeroesUITests/Pods-Dota 2 Heroes-Dota 2 HeroesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6A76B1A723C7914786FB8AE /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota 2 Heroes-Dota 2 HeroesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dota 2 Heroes-Dota 2 HeroesUITests/Pods-Dota 2 Heroes-Dota 2 HeroesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6A97585C8102AFF864324F /* Pods_Dota_2_Heroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota_2_Heroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFF90DC151A4B9361DBF650 /* Pods_Dota_2_Heroes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383EB77BACD81DB3F3E6677C /* Pods_Dota_2_HeroesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +100,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FAB786BDC0F9A29A9DB0F9 /* Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45B28AA55DD0C4B46FF7AFE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				670E2A04F75A497ACDFD19DE /* Pods-Dota 2 Heroes.debug.xcconfig */,
+				B0BD2EBBDC8B1AF4A033E7BC /* Pods-Dota 2 Heroes.release.xcconfig */,
+				D6A76B1A723C7914786FB8AE /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.debug.xcconfig */,
+				CAB5242470C9F498CD23BF24 /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.release.xcconfig */,
+				B089CEA3A50E46894368B5CA /* Pods-Dota 2 HeroesTests.debug.xcconfig */,
+				30F2EFA1F86CBC4787D881A1 /* Pods-Dota 2 HeroesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		635F08A52657D37900BFFD64 /* Network Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +187,8 @@
 				6378AB4E26579A1E00C2D2FC /* Dota 2 HeroesTests */,
 				6378AB5926579A1E00C2D2FC /* Dota 2 HeroesUITests */,
 				6378AB3626579A1C00C2D2FC /* Products */,
+				45B28AA55DD0C4B46FF7AFE8 /* Pods */,
+				CF416FBDF951573182D5EAFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +239,16 @@
 			path = "Dota 2 HeroesUITests";
 			sourceTree = "<group>";
 		};
+		CF416FBDF951573182D5EAFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A97585C8102AFF864324F /* Pods_Dota_2_Heroes.framework */,
+				8DEAF8D213FFA2780D144A05 /* Pods_Dota_2_Heroes_Dota_2_HeroesUITests.framework */,
+				B98935DDEAD5695AA1F7B114 /* Pods_Dota_2_HeroesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6378AB5F26579A1E00C2D2FC /* Build configuration list for PBXNativeTarget "Dota 2 Heroes" */;
 			buildPhases = (
+				3C2E5A32B1535CEEF2F72BF9 /* [CP] Check Pods Manifest.lock */,
 				6378AB3126579A1C00C2D2FC /* Sources */,
 				6378AB3226579A1C00C2D2FC /* Frameworks */,
 				6378AB3326579A1C00C2D2FC /* Resources */,
+				01C4A8AD63F6406B5637F77A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6378AB6226579A1E00C2D2FC /* Build configuration list for PBXNativeTarget "Dota 2 HeroesTests" */;
 			buildPhases = (
+				EB89192A9C00D4DC5D7B9499 /* [CP] Check Pods Manifest.lock */,
 				6378AB4726579A1E00C2D2FC /* Sources */,
 				6378AB4826579A1E00C2D2FC /* Frameworks */,
 				6378AB4926579A1E00C2D2FC /* Resources */,
@@ -250,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6378AB6526579A1E00C2D2FC /* Build configuration list for PBXNativeTarget "Dota 2 HeroesUITests" */;
 			buildPhases = (
+				830F764FC449AAD9824009AA /* [CP] Check Pods Manifest.lock */,
 				6378AB5226579A1E00C2D2FC /* Sources */,
 				6378AB5326579A1E00C2D2FC /* Frameworks */,
 				6378AB5426579A1E00C2D2FC /* Resources */,
+				8F27BBBE5A09B2BD16F6B064 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +378,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C4A8AD63F6406B5637F77A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes/Pods-Dota 2 Heroes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes/Pods-Dota 2 Heroes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes/Pods-Dota 2 Heroes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C2E5A32B1535CEEF2F72BF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dota 2 Heroes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		830F764FC449AAD9824009AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dota 2 Heroes-Dota 2 HeroesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F27BBBE5A09B2BD16F6B064 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes-Dota 2 HeroesUITests/Pods-Dota 2 Heroes-Dota 2 HeroesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes-Dota 2 HeroesUITests/Pods-Dota 2 Heroes-Dota 2 HeroesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dota 2 Heroes-Dota 2 HeroesUITests/Pods-Dota 2 Heroes-Dota 2 HeroesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB89192A9C00D4DC5D7B9499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dota 2 HeroesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6378AB3126579A1C00C2D2FC /* Sources */ = {
@@ -521,6 +670,7 @@
 		};
 		6378AB6026579A1E00C2D2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670E2A04F75A497ACDFD19DE /* Pods-Dota 2 Heroes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -540,6 +690,7 @@
 		};
 		6378AB6126579A1E00C2D2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BD2EBBDC8B1AF4A033E7BC /* Pods-Dota 2 Heroes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -559,6 +710,7 @@
 		};
 		6378AB6326579A1E00C2D2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B089CEA3A50E46894368B5CA /* Pods-Dota 2 HeroesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +733,7 @@
 		};
 		6378AB6426579A1E00C2D2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F2EFA1F86CBC4787D881A1 /* Pods-Dota 2 HeroesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -603,6 +756,7 @@
 		};
 		6378AB6626579A1E00C2D2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A76B1A723C7914786FB8AE /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +777,7 @@
 		};
 		6378AB6726579A1E00C2D2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB5242470C9F498CD23BF24 /* Pods-Dota 2 Heroes-Dota 2 HeroesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
