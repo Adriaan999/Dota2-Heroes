@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Dota 2 Heroes' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Dota 2 Heroes
+
+  target 'Dota 2 HeroesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  pod 'Kingfisher', '~> 6.0'
+
+  end
+
+  target 'Dota 2 HeroesUITests' do
+    # Pods for testing
+  end
+
+end
