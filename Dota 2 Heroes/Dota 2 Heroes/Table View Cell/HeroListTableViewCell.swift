@@ -12,6 +12,8 @@ class HeroListTableViewCell: UITableViewCell {
     private let heroListURL = "https://api.opendota.com"
     
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var attackType: UILabel!
+    @IBOutlet weak var role: UILabel!
     @IBOutlet weak var heroImage: UIImageView!
     @IBOutlet weak var attributeImage: UIImageView!
     

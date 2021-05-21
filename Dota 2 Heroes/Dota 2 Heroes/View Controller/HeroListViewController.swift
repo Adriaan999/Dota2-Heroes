@@ -15,6 +15,10 @@ class HeroListViewController: UIViewController, UITableViewDelegate, UITableView
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        let logo = UIImage(named: "dota2Logo")
+        let imageView = UIImageView(image:logo)
+        imageView.contentMode = .scaleAspectFit
+        self.navigationItem.titleView = imageView
         viewModel.fetcHeroList()
     }
     
@@ -35,7 +39,8 @@ class HeroListViewController: UIViewController, UITableViewDelegate, UITableView
             cell.configure(with: heroList.imageURL ?? "",
                            primartyAttribute: heroList.primaryAttribute ?? "")
             cell.title.text = heroList.heroName
-
+            cell.attackType.text = heroList.attackType
+            cell.role.text = heroList.roles?.first
         }
         return cell
     }

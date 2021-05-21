@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Dota Heros-->
+        <!--Hero List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HeroListViewController" customModule="Dota_2_Heroes" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexTrackingBackgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="heroListTableViewCell" rowHeight="100" id="MCY-mO-WN2" customClass="HeroListTableViewCell" customModule="Dota_2_Heroes" customModuleProvider="target">
@@ -37,12 +37,6 @@
                                                         <constraint firstAttribute="width" constant="75" id="RWl-LT-ME6"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsI-Sb-PjU">
-                                                    <rect key="frame" x="95" y="39.5" width="249" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.8274565935" green="0.82744091750000004" blue="0.82745152710000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8IY-yR-DWV">
                                                     <rect key="frame" x="354" y="25" width="50" height="50"/>
                                                     <constraints>
@@ -50,24 +44,50 @@
                                                         <constraint firstAttribute="height" constant="50" id="d08-jH-06a"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36D-MW-WFt">
+                                                    <rect key="frame" x="95" y="39.5" width="249" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsI-Sb-PjU">
+                                                    <rect key="frame" x="95" y="10" width="249" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="textColor" red="0.8274565935" green="0.82744091750000004" blue="0.82745152710000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIf-bs-8VT">
+                                                    <rect key="frame" x="95" y="66.5" width="249" height="17.5"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.10196178409999999" green="0.10195901239999999" blue="0.1019608751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
+                                                <constraint firstItem="AsI-Sb-PjU" firstAttribute="leading" secondItem="Fp4-3f-g0Y" secondAttribute="trailing" constant="10" id="03M-QM-aFx"/>
                                                 <constraint firstItem="Fp4-3f-g0Y" firstAttribute="leading" secondItem="hsm-zO-XUy" secondAttribute="leading" constant="10" id="66U-U0-Qjo"/>
+                                                <constraint firstItem="AsI-Sb-PjU" firstAttribute="top" secondItem="hsm-zO-XUy" secondAttribute="top" constant="10" id="ASS-QY-aMQ"/>
+                                                <constraint firstItem="36D-MW-WFt" firstAttribute="leading" secondItem="Fp4-3f-g0Y" secondAttribute="trailing" constant="10" id="Deh-ow-QgB"/>
                                                 <constraint firstItem="Fp4-3f-g0Y" firstAttribute="centerY" secondItem="hsm-zO-XUy" secondAttribute="centerY" id="FEh-k8-lwt"/>
-                                                <constraint firstItem="AsI-Sb-PjU" firstAttribute="leading" secondItem="Fp4-3f-g0Y" secondAttribute="trailing" constant="10" id="Gga-eS-zfY"/>
-                                                <constraint firstItem="AsI-Sb-PjU" firstAttribute="centerY" secondItem="hsm-zO-XUy" secondAttribute="centerY" id="H5G-jV-JxF"/>
+                                                <constraint firstItem="qIf-bs-8VT" firstAttribute="top" secondItem="36D-MW-WFt" secondAttribute="bottom" constant="7" id="KWk-xq-X6D"/>
                                                 <constraint firstItem="8IY-yR-DWV" firstAttribute="trailing" secondItem="hsm-zO-XUy" secondAttribute="trailingMargin" constant="10" id="OJd-lt-6uC"/>
                                                 <constraint firstItem="8IY-yR-DWV" firstAttribute="centerY" secondItem="hsm-zO-XUy" secondAttribute="centerY" id="Orq-fu-VWx"/>
-                                                <constraint firstItem="8IY-yR-DWV" firstAttribute="leading" secondItem="AsI-Sb-PjU" secondAttribute="trailing" constant="10" id="mH4-jN-OIb"/>
+                                                <constraint firstItem="qIf-bs-8VT" firstAttribute="leading" secondItem="Fp4-3f-g0Y" secondAttribute="trailing" constant="10" id="cBM-ac-Xhw"/>
+                                                <constraint firstItem="8IY-yR-DWV" firstAttribute="leading" secondItem="AsI-Sb-PjU" secondAttribute="trailing" constant="10" id="lEq-sy-D5i"/>
+                                                <constraint firstItem="8IY-yR-DWV" firstAttribute="leading" secondItem="qIf-bs-8VT" secondAttribute="trailing" constant="10" id="m5w-Cu-pxU"/>
+                                                <constraint firstItem="8IY-yR-DWV" firstAttribute="leading" secondItem="36D-MW-WFt" secondAttribute="trailing" constant="10" id="o3x-eB-jcz"/>
+                                                <constraint firstItem="36D-MW-WFt" firstAttribute="top" secondItem="AsI-Sb-PjU" secondAttribute="bottom" constant="8" symbolic="YES" id="rte-hs-HF4"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
+                                            <outlet property="attackType" destination="36D-MW-WFt" id="cav-Xg-2Xf"/>
                                             <outlet property="attributeImage" destination="8IY-yR-DWV" id="Qja-86-S0t"/>
                                             <outlet property="heroImage" destination="Fp4-3f-g0Y" id="zL4-DC-RBt"/>
+                                            <outlet property="role" destination="qIf-bs-8VT" id="0i1-oU-qFB"/>
                                             <outlet property="title" destination="AsI-Sb-PjU" id="gVL-1A-5NQ"/>
                                         </connections>
                                     </tableViewCell>
@@ -79,8 +99,8 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.13333333333333333" green="0.13334330920000001" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4tu-2Z-3dR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OL4-nF-Nsi"/>
                             <constraint firstItem="4tu-2Z-3dR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QzX-aC-IPq"/>
@@ -88,7 +108,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4tu-2Z-3dR" secondAttribute="bottom" id="aDU-Bg-H7Y"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Dota Heros" id="hLC-63-9Kj"/>
+                    <navigationItem key="navigationItem" id="hLC-63-9Kj"/>
                     <connections>
                         <outlet property="heroListTableView" destination="4tu-2Z-3dR" id="qP1-aU-4xP"/>
                     </connections>
