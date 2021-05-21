@@ -8,12 +8,12 @@
 import Foundation
 
 class HeroListInteractor: HeroListBoundary {
-    private let catFactURL = "https://api.opendota.com/api/heroStats"
+    private let heroListURL = "https://api.opendota.com/api/heroStats"
     private let networkManager = NetworkManager()
     
     func fetchCatFacts(success: @escaping FetchHeroListSuccess,
                        failure: @escaping FetchHeroListFailure) {
-        networkManager.performRequest(url: catFactURL, successBlock: { (data) in
+        networkManager.performRequest(url: heroListURL, successBlock: { (data) in
             guard let heroList: [HeroListResponseModel] = try? data.decoded() else {
                 //TODO: - Refactor error handeling
                 let errorDescription = "A localized description of an error"

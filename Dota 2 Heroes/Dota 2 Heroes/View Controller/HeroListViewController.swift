@@ -25,7 +25,9 @@ class HeroListViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "heroListTableViewCell", for: indexPath) as! HeroListTableViewCell
-        if let heroName = viewModel.heroList?[indexPath.row].heroName {
+        if let heroName = viewModel.heroList?[indexPath.row].heroName,
+           let imageURL = viewModel.heroList?[indexPath.row].imageURL {
+        cell.setHeroImage(with: imageURL)
         cell.title.text = heroName
         }
         return cell

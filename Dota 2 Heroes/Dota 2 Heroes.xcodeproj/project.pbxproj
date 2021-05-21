@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,6 @@
 		635F08C62657DA2400BFFD64 /* HeroListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08C52657DA2400BFFD64 /* HeroListInteractor.swift */; };
 		635F08CB2657DA3700BFFD64 /* HeroListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08CA2657DA3700BFFD64 /* HeroListResponseModel.swift */; };
 		635F08D12657DD0B00BFFD64 /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08D02657DD0B00BFFD64 /* HeroListViewModel.swift */; };
-		635F08D62657E4BF00BFFD64 /* URL+PartialLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */; };
 		6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3826579A1C00C2D2FC /* AppDelegate.swift */; };
 		6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */; };
 		6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */; };
@@ -53,7 +52,6 @@
 		635F08C52657DA2400BFFD64 /* HeroListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListInteractor.swift; sourceTree = "<group>"; };
 		635F08CA2657DA3700BFFD64 /* HeroListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListResponseModel.swift; sourceTree = "<group>"; };
 		635F08D02657DD0B00BFFD64 /* HeroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
-		635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+PartialLink.swift"; sourceTree = "<group>"; };
 		6378AB3526579A1C00C2D2FC /* Dota 2 Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6378AB3826579A1C00C2D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				B089CEA3A50E46894368B5CA /* Pods-Dota 2 HeroesTests.debug.xcconfig */,
 				30F2EFA1F86CBC4787D881A1 /* Pods-Dota 2 HeroesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */,
-				635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -492,7 +488,6 @@
 				635F08CB2657DA3700BFFD64 /* HeroListResponseModel.swift in Sources */,
 				6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */,
 				635F08D12657DD0B00BFFD64 /* HeroListViewModel.swift in Sources */,
-				635F08D62657E4BF00BFFD64 /* URL+PartialLink.swift in Sources */,
 				6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */,
 				635F08A72657D39E00BFFD64 /* NetworkManager.swift in Sources */,
 				6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */,
