@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3826579A1C00C2D2FC /* AppDelegate.swift */; };
 		6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */; };
-		6378AB3D26579A1C00C2D2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3C26579A1C00C2D2FC /* ViewController.swift */; };
-		6378AB4026579A1C00C2D2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378AB3E26579A1C00C2D2FC /* Main.storyboard */; };
+		6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */; };
+		6378AB4026579A1C00C2D2FC /* HeroList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378AB3E26579A1C00C2D2FC /* HeroList.storyboard */; };
 		6378AB4226579A1E00C2D2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6378AB4126579A1E00C2D2FC /* Assets.xcassets */; };
 		6378AB4526579A1E00C2D2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378AB4326579A1E00C2D2FC /* LaunchScreen.storyboard */; };
 		6378AB5026579A1E00C2D2FC /* Dota_2_HeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB4F26579A1E00C2D2FC /* Dota_2_HeroesTests.swift */; };
 		6378AB5B26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB5A26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift */; };
+		6378AB7A2657A4E300C2D2FC /* HeroListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 		6378AB3526579A1C00C2D2FC /* Dota 2 Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6378AB3826579A1C00C2D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6378AB3C26579A1C00C2D2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6378AB3F26579A1C00C2D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		6378AB3F26579A1C00C2D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HeroList.storyboard; sourceTree = "<group>"; };
 		6378AB4126579A1E00C2D2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6378AB4426579A1E00C2D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6378AB4626579A1E00C2D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		6378AB5626579A1E00C2D2FC /* Dota 2 HeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dota 2 HeroesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6378AB5A26579A1E00C2D2FC /* Dota_2_HeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_2_HeroesUITests.swift; sourceTree = "<group>"; };
 		6378AB5C26579A1E00C2D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				6378AB3826579A1C00C2D2FC /* AppDelegate.swift */,
 				6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */,
-				6378AB3C26579A1C00C2D2FC /* ViewController.swift */,
-				6378AB3E26579A1C00C2D2FC /* Main.storyboard */,
+				6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */,
+				6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */,
+				6378AB3E26579A1C00C2D2FC /* HeroList.storyboard */,
 				6378AB4126579A1E00C2D2FC /* Assets.xcassets */,
 				6378AB4326579A1E00C2D2FC /* LaunchScreen.storyboard */,
 				6378AB4626579A1E00C2D2FC /* Info.plist */,
@@ -233,7 +236,7 @@
 			files = (
 				6378AB4526579A1E00C2D2FC /* LaunchScreen.storyboard in Resources */,
 				6378AB4226579A1E00C2D2FC /* Assets.xcassets in Resources */,
-				6378AB4026579A1C00C2D2FC /* Main.storyboard in Resources */,
+				6378AB4026579A1C00C2D2FC /* HeroList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6378AB3D26579A1C00C2D2FC /* ViewController.swift in Sources */,
+				6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */,
 				6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */,
 				6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */,
+				6378AB7A2657A4E300C2D2FC /* HeroListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +300,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6378AB3E26579A1C00C2D2FC /* Main.storyboard */ = {
+		6378AB3E26579A1C00C2D2FC /* HeroList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6378AB3F26579A1C00C2D2FC /* Base */,
 			);
-			name = Main.storyboard;
+			name = HeroList.storyboard;
 			sourceTree = "<group>";
 		};
 		6378AB4326579A1E00C2D2FC /* LaunchScreen.storyboard */ = {
