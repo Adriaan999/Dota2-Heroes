@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635F08A72657D39E00BFFD64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08A62657D39E00BFFD64 /* NetworkManager.swift */; };
+		635F08B02657D50A00BFFD64 /* Data+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */; };
+		635F08C12657DA1100BFFD64 /* HeroListBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08C02657DA1100BFFD64 /* HeroListBoundary.swift */; };
+		635F08C62657DA2400BFFD64 /* HeroListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08C52657DA2400BFFD64 /* HeroListInteractor.swift */; };
+		635F08CB2657DA3700BFFD64 /* HeroListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08CA2657DA3700BFFD64 /* HeroListResponseModel.swift */; };
+		635F08D12657DD0B00BFFD64 /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08D02657DD0B00BFFD64 /* HeroListViewModel.swift */; };
+		635F08D62657E4BF00BFFD64 /* URL+PartialLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */; };
 		6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3826579A1C00C2D2FC /* AppDelegate.swift */; };
 		6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */; };
 		6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */; };
@@ -36,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635F08A62657D39E00BFFD64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decoding.swift"; sourceTree = "<group>"; };
+		635F08C02657DA1100BFFD64 /* HeroListBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListBoundary.swift; sourceTree = "<group>"; };
+		635F08C52657DA2400BFFD64 /* HeroListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListInteractor.swift; sourceTree = "<group>"; };
+		635F08CA2657DA3700BFFD64 /* HeroListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListResponseModel.swift; sourceTree = "<group>"; };
+		635F08D02657DD0B00BFFD64 /* HeroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
+		635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+PartialLink.swift"; sourceTree = "<group>"; };
 		6378AB3526579A1C00C2D2FC /* Dota 2 Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6378AB3826579A1C00C2D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +92,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635F08A52657D37900BFFD64 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				635F08A62657D39E00BFFD64 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		635F08AE2657D4F700BFFD64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				635F08AF2657D50A00BFFD64 /* Data+Decoding.swift */,
+				635F08D52657E4BF00BFFD64 /* URL+PartialLink.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		635F08B92657D54300BFFD64 /* Dota Heros Service */ = {
+			isa = PBXGroup;
+			children = (
+				635F08C02657DA1100BFFD64 /* HeroListBoundary.swift */,
+				635F08C52657DA2400BFFD64 /* HeroListInteractor.swift */,
+				635F08CA2657DA3700BFFD64 /* HeroListResponseModel.swift */,
+			);
+			path = "Dota Heros Service";
+			sourceTree = "<group>";
+		};
+		635F08BA2657D55500BFFD64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6378AB3E26579A1C00C2D2FC /* HeroList.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		635F08BB2657D55F00BFFD64 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		635F08BC2657D57100BFFD64 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		635F08CF2657DCFA00BFFD64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				635F08D02657DD0B00BFFD64 /* HeroListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6378AB2C26579A1C00C2D2FC = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +174,15 @@
 		6378AB3726579A1C00C2D2FC /* Dota 2 Heroes */ = {
 			isa = PBXGroup;
 			children = (
+				635F08CF2657DCFA00BFFD64 /* ViewModel */,
+				635F08BC2657D57100BFFD64 /* Table View Cell */,
+				635F08BB2657D55F00BFFD64 /* View Controller */,
+				635F08BA2657D55500BFFD64 /* View */,
+				635F08B92657D54300BFFD64 /* Dota Heros Service */,
+				635F08AE2657D4F700BFFD64 /* Extension */,
+				635F08A52657D37900BFFD64 /* Network Manager */,
 				6378AB3826579A1C00C2D2FC /* AppDelegate.swift */,
 				6378AB3A26579A1C00C2D2FC /* SceneDelegate.swift */,
-				6378AB792657A4E300C2D2FC /* HeroListTableViewCell.swift */,
-				6378AB3C26579A1C00C2D2FC /* HeroListViewController.swift */,
-				6378AB3E26579A1C00C2D2FC /* HeroList.storyboard */,
 				6378AB4126579A1E00C2D2FC /* Assets.xcassets */,
 				6378AB4326579A1E00C2D2FC /* LaunchScreen.storyboard */,
 				6378AB4626579A1E00C2D2FC /* Info.plist */,
@@ -261,9 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635F08C62657DA2400BFFD64 /* HeroListInteractor.swift in Sources */,
+				635F08C12657DA1100BFFD64 /* HeroListBoundary.swift in Sources */,
+				635F08CB2657DA3700BFFD64 /* HeroListResponseModel.swift in Sources */,
 				6378AB3D26579A1C00C2D2FC /* HeroListViewController.swift in Sources */,
+				635F08D12657DD0B00BFFD64 /* HeroListViewModel.swift in Sources */,
+				635F08D62657E4BF00BFFD64 /* URL+PartialLink.swift in Sources */,
 				6378AB3926579A1C00C2D2FC /* AppDelegate.swift in Sources */,
+				635F08A72657D39E00BFFD64 /* NetworkManager.swift in Sources */,
 				6378AB3B26579A1C00C2D2FC /* SceneDelegate.swift in Sources */,
+				635F08B02657D50A00BFFD64 /* Data+Decoding.swift in Sources */,
 				6378AB7A2657A4E300C2D2FC /* HeroListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -51,6 +51,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="heroImage" destination="Fp4-3f-g0Y" id="zL4-DC-RBt"/>
                                             <outlet property="title" destination="AsI-Sb-PjU" id="gVL-1A-5NQ"/>
                                         </connections>
                                     </tableViewCell>
@@ -70,6 +71,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4tu-2Z-3dR" secondAttribute="bottom" id="aDU-Bg-H7Y"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heroListTableView" destination="4tu-2Z-3dR" id="qP1-aU-4xP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

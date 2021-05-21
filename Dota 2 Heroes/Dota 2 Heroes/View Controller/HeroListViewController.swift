@@ -9,18 +9,25 @@ import UIKit
 
 class HeroListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet private weak var heroListTableView: UITableView!
+    
+    private lazy var viewModel = HeroListViewModel(interactor: HeroListInteractor(),
+                                                   delegate: self)
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel.fetcHeroList()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return viewModel.heroList?.count ?? 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "heroListTableViewCell", for: indexPath) as! HeroListTableViewCell
-        cell.title.text = "TestTest"
+        if let heroName = viewModel.heroList?[indexPath.row].heroName {
+        cell.title.text = heroName
+        }
         return cell
     }
 
@@ -28,5 +35,12 @@ class HeroListViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
-    
+}
+
+extension HeroListViewController: HeroListViewModelDelegate {
+    func didFetchHeroList() {
+        DispatchQueue.main.async {
+            self.heroListTableView.reloadData()
+        }
+    }
 }
