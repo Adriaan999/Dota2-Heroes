@@ -13,12 +13,25 @@ class HeroListTableViewCell: UITableViewCell {
     
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var heroImage: UIImageView!
+    @IBOutlet weak var attributeImage: UIImageView!
     
-    func setHeroImage(with iconString: String) {
+    func configure(with iconString: String,
+                   primartyAttribute: String) {
+        
         if let url = URL(string: heroListURL + iconString) {
             getImage(url: url)
         }
         
+        switch primartyAttribute {
+        case "str":
+            attributeImage.image = UIImage(named: "strength")
+        case "int":
+            attributeImage.image = UIImage(named: "intelligence")
+        case "agi":
+            attributeImage.image = UIImage(named: "agility")
+        default:
+            break
+        }
     }
     
     private func getImage(url: URL) {

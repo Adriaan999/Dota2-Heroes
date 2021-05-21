@@ -10,7 +10,6 @@ import UIKit
 class HeroListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet private weak var heroListTableView: UITableView!
-    
     private lazy var viewModel = HeroListViewModel(interactor: HeroListInteractor(),
                                                    delegate: self)
         
@@ -19,16 +18,24 @@ class HeroListViewController: UIViewController, UITableViewDelegate, UITableView
         viewModel.fetcHeroList()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let nav = self.navigationController?.navigationBar
+        nav?.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(red: 167/255, green: 39/255, blue: 20/255, alpha: 1.0),
+                                    NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 25)!]
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.heroList?.count ?? 1
+        return (viewModel.heroList?.count ?? 1) - 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "heroListTableViewCell", for: indexPath) as! HeroListTableViewCell
-        if let heroName = viewModel.heroList?[indexPath.row].heroName,
-           let imageURL = viewModel.heroList?[indexPath.row].imageURL {
-        cell.setHeroImage(with: imageURL)
-        cell.title.text = heroName
+        if let heroList = viewModel.heroList?[indexPath.row] {
+            cell.configure(with: heroList.imageURL ?? "",
+                           primartyAttribute: heroList.primaryAttribute ?? "")
+            cell.title.text = heroList.heroName
+
         }
         return cell
     }
